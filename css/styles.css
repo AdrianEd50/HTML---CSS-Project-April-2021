@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+}
+
+.logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #744646;
+  justify-content: space-evenly;
+}
+
+.location-icon {
+  max-width: 30px;
+}
+
+footer {
+  background-color: #744646;
+  color: #fff;
+  text-align: center;
+}
+
+nav {
+  margin-left: 25px;
+  display: none;
+  position: absolute;
+  top: 51px;
+  background: #744646;
+  z-index: 1000;
+  right: 0px;
+}
+
+nav li {
+  display: block;
+  margin: 10px;
+  font-family: "roboto";
+  padding: 5px;
+}
+
+nav ul {
+  padding: 0px;
+  margin-left: 25px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.home-map {
+  border-radius: 20px;
+  margin: 25px;
+  width: 80%;
+}
+
+/*links*/
+header a {
+  padding: 10px;
+  margin-left: 10px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.cta {
+  background-color: #744646;
+  color: #ffff;
+  text-decoration: none;
+  font-family: "roboto";
+  font-size: 1em;
+  padding: 3px 20px;
+  border-radius: 20px;
+}
+
+.cta-contact {
+  background-color: #744646;
+  color: #ffff;
+  text-decoration: none;
+  font-family: "roboto";
+  padding: 5px 40px;
+  border-radius: 10px;
+}

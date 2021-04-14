@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conscious Coffe</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/location.css"/>
+    <link rel="stylesheet" href="../css/media.css"/>
+    <script src="https://kit.fontawesome.com/04e323edbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
     <a href="index.html" class="logo">Conscious Coffee</a>
+    <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu" />
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="coffee.html">Coffee</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About us</a></li>
-            <li><a href="location.html" class="current"><img src="images/location-white.png" class="location" alt="location">Find Store</a></li> 
+            <li><a href="location.html" class="current"><img src="images/location-white.png" class="location-icon" alt="location">Find Store</a></li> 
         </ul>
     </nav>
 </header>
 <main>
-    <section>
+    <section class="location-page">
+        <h1>Location</h1>
+    <div class="location-page-spesific">
         <div>
-            <h1>Location</h1>
+            <img src="../images/map.png" class="home-map"  alt="map">
         </div>
         <div>
             <h2>Contact</h2>
@@ -32,9 +39,8 @@
             <p>Dronningens Gate 21 </p>
             <p>0154 Oslo</p>
         </div>
-        <div>
-            <img src="../images/map.png" alt="map">
-        </div>
+    </div>
+        
     </section>
 </main>
 <footer>

@@ -1,0 +1,26 @@
+.location-page {
+  color: #744646;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 1000px;
+  margin: 50px auto;
+  min-height: 74vh;
+}
+.location-page p {
+  font-family: "roboto";
+}
+
+.location-page h1 {
+  text-align: center;
+}
+
+.location-page-spesific {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.location-page-spesific > * {
+  flex: 1;
+  margin-left: 25px;
+}

@@ -5,67 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conscious Coffe | Home</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/media.css"/>
+    <script src="https://kit.fontawesome.com/04e323edbd.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
     <a href="index.html" class="logo">Conscious Coffee</a>
+    <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu" />
     <nav>
         <ul>
             <li><a href="index.html" class="current">Home</a></li>
             <li><a href="coffee.html">Coffee</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About us</a></li>
-            <li><a href="location.html"><img src="images/location-white.png" class="location" alt="location">Find Store</a></li> 
+            <li><a href="location.html"><img src="images/location-white.png" class="location-icon" alt="location">Find Store</a></li> 
         </ul>
     </nav>
 </header>
 <main>
     <section class="punchline">
         <div class="punchline-content">
-            <h1>THE BEST COFFEE IN THE COUNTRY</h1>
+            <h1>THE <span >BEST</span> COFFEE<span class="span-content"></span> IN THE COUNTRY</h1>
         </div>
     </section>
-
-    <section>
-        <div>
+<span></span>
+    <section class="product">
             <h1>View our Coffees</h1>
-        </div>
-        <div>
+        <div class="product-spesific">
             <img src="images/product.jpg" alt="product">
             <h2>Cappuchino</h2>
-            <a href="coffee.html">View</a>
+            <a href="coffee.html" class="cta">View</a>
         </div>
 
-        <div>
+        <div class="product-spesific">
             <img src="images/product.jpg" alt="product">
             <h2>Cappuchino</h2>
-            <a href="coffee.html">View</a>
+            <a href="coffee.html" class="cta">View</a>
         </div>
 
-        <div>
+        <div class="product-spesific">
             <img src="images/product.jpg" alt="product">
             <h2>Cappuchino</h2>
-            <a href="coffee.html">View</a>
+            <a href="coffee.html" class="cta">View</a>
         </div>
 
-        <div>
+        <div class="product-spesific">
             <img src="images/product.jpg" alt="product">
             <h2>Cappuchino</h2>
-            <a href="coffee.html">View</a>
+            <a href="coffee.html" class="cta">View</a>
         </div>
+
     </section>
 
-    <section>
+    <section class="home-location">
+        <div class="home-location-content">
+        <div>
+            <img src="images/map.png" class="home-map" alt="map">
+        </div>
         <div>
             <h1>Contact</h1>
             <p>+47455697</p>
             <p>Conscious Coffee</p>
             <p>Dronningens Gate 21 </p>
             <p>0154 Oslo</p>
-        </div>
-        <div>
-            <img src="../images/map.png" alt="map">
+            </div>
         </div>
     </section>
 </main>
