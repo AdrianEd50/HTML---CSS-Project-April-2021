@@ -1,0 +1,14 @@
+.checkout {
+  color: #744646;
+  text-align: center;
+}
+
+.checkout-h2 {
+  color: #744646;
+  text-align: center;
+  margin: 50px;
+}
+
+main {
+  min-height: 86.5vh;
+}

@@ -3,7 +3,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 1000px;
   margin: 50px auto;
-  min-height: 74vh;
+  min-height: 77.5vh;
 }
 .location-page p {
   font-family: "roboto";
@@ -16,7 +16,7 @@
 .location-page-spesific {
   display: flex;
   max-width: 1000px;
-  margin: auto;
+  margin: 50px auto;
   flex-direction: column;
 }
 

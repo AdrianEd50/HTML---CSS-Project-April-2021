@@ -2,7 +2,7 @@
   text-align: center;
   max-width: 1000px;
   margin: auto;
-  min-height: 87vh;
+  min-height: 85.7vh;
   color: #744646;
 }
 
@@ -31,4 +31,10 @@ textarea {
 textarea {
   height: 60%;
   min-height: 100px;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  padding-bottom: 30px;
 }

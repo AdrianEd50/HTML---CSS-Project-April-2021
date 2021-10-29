@@ -16,7 +16,11 @@ header {
 }
 
 .location-icon {
-  max-width: 30px;
+  max-width: 20px;
+}
+
+.shopping-cart-icon {
+  max-width: 25px;
 }
 
 footer {
@@ -73,6 +77,10 @@ header a {
   text-decoration: underline;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 .cta {
   background-color: #744646;
   color: #ffff;
@@ -83,6 +91,16 @@ header a {
   border-radius: 20px;
 }
 
+.cta-home {
+  background-color: #744646;
+  margin: auto;
+  color: #fff;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 15px;
+  padding: 5px 30px;
+}
+
 .cta-contact {
   background-color: #744646;
   color: #ffff;
@@ -90,4 +108,51 @@ header a {
   font-family: "roboto";
   padding: 5px 40px;
   border-radius: 10px;
+}
+
+.product-spesific {
+  display: flex;
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  padding: 15px;
+  height: 75vh;
+}
+
+.product-spesific > * {
+  flex: 1;
+}
+
+.product-spesific img {
+  max-width: 1000px;
+  width: 800px;
+}
+
+.product-spesific__details {
+  padding: 30px;
+}
+
+.product-spesific__details > * {
+  flex: 1;
+}
+
+.product-spesific__details a {
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+
+.product-spesific__details a:hover {
+  color: grey;
+}
+
+.product-spesific__details h2 {
+  font-size: 1.8em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.product-spesific__details p {
+  font-size: 1.1em;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
 }

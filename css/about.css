@@ -4,14 +4,21 @@
   border-width: thick;
   margin: 25px;
   max-width: 1000px;
-  min-height: 77vh;
+  min-height: 82.7vh;
 }
 
-.about h2,
-p {
+.about p {
   margin-left: 10px;
-  font-family: "roboto";
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
+  font-size: 1.3em;
+}
+
+.about h2 {
+  margin-left: 10px;
+  font-size: 1.8em;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .about h1 {

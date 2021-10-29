@@ -1,0 +1,56 @@
+.coffee-details {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  min-height: 74.5vh;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.coffee-details > * {
+  flex: 1;
+}
+
+.coffee-details__details {
+  color: #744646;
+  margin: 50px;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.coffee-details-image {
+  width: 100%;
+}
+
+.link {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.go-back {
+  color: #744646;
+  font-size: 0.9em;
+  text-decoration: none;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.go-back:hover {
+  text-decoration: underline;
+}
+
+.cta-cart {
+  background-color: #744646;
+  color: #fff;
+  text-decoration: none;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  padding: 3px 20px;
+  border-radius: 20px;
+  margin-left: 0px;
+}
+
+.cta-cart:hover {
+  text-decoration: underline;
+}
