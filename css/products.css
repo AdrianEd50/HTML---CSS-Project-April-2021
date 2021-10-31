@@ -27,13 +27,11 @@
 }
 
 .go-back {
-  color: #744646;
+  color: blue;
   font-size: 0.9em;
   text-decoration: none;
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
-  position: absolute;
-  margin-left: 70px;
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .go-back:hover {
