@@ -1,6 +1,8 @@
 const form = document.querySelector("#contactForm");
 const name = document.querySelector("#name");
 const nameError = document.querySelector("#nameError");
+const lastName = document.querySelector("#lastName");
+const lastNameError = document.querySelector("#lastNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const message = document.querySelector("#message");
@@ -13,6 +15,12 @@ function validateForm() {
     nameError.style.display = "none";
   } else {
     nameError.style.display = "block";
+  }
+
+  if (findLength(name.value, 0)) {
+    lastNameError.style.display = "none";
+  } else {
+    lastNameError.style.display = "block";
   }
 
   if (findLength(message.value, 10)) {

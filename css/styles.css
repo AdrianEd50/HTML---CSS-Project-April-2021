@@ -48,7 +48,6 @@ nav li {
 
 nav ul {
   padding: 0px;
-  margin-left: 25px;
 }
 
 #hamburger-menu {
@@ -91,6 +90,12 @@ nav a:hover {
   border-radius: 20px;
 }
 
+.cta:hover {
+  background-color: #aa7f7f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .cta-home {
   background-color: #744646;
   margin: auto;
@@ -99,6 +104,12 @@ nav a:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 15px;
   padding: 5px 30px;
+}
+
+.cta-home:hover {
+  background-color: #aa7f7f;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .cta-contact {

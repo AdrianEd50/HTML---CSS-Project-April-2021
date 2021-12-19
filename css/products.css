@@ -32,6 +32,8 @@
   text-decoration: none;
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
   margin: 30px;
+  position: relative;
+  top: 15px;
 }
 
 .go-back:hover {
@@ -50,5 +52,10 @@
 }
 
 .cta-cart:hover {
+  background-color: #aa7f7f;
   text-decoration: underline;
+}
+
+.products-main {
+  min-height: 88.6vh;
 }

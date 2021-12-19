@@ -43,6 +43,10 @@
   .location-page h1 {
     font-size: 2.2em;
   }
+
+  .location-page {
+    min-height: 76.2vh;
+  }
 }
 
 @media (min-width: 900px) {
@@ -87,6 +91,14 @@
 
   header {
     justify-content: normal;
+  }
+
+  .contact {
+    min-height: 84.4vh;
+  }
+
+  .checkout-height {
+    min-height: 88.6vh;
   }
 }
 

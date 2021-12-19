@@ -2,7 +2,7 @@
   text-align: center;
   max-width: 1000px;
   margin: auto;
-  min-height: 85.7vh;
+  min-height: 86.4vh;
   color: #744646;
 }
 
@@ -29,7 +29,7 @@ textarea {
 }
 
 textarea {
-  height: 60%;
+  height: 75%;
   min-height: 100px;
 }
 
@@ -37,4 +37,10 @@ textarea {
   display: none;
   color: red;
   padding-bottom: 30px;
+}
+
+.cta-contact:hover {
+  background-color: #aa7f7f;
+  text-decoration: underline;
+  cursor: pointer;
 }
