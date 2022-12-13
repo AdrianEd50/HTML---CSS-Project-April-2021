@@ -28,4 +28,4 @@
 
 <h2>Contact</h2>
 <p>My linked in link</p>
-<a>https://www.linkedin.com/in/adrian-lafjell-ed-3b04aa1b6/</a>
+<p>https://www.linkedin.com/in/adrian-lafjell-ed-3b04aa1b6/</p>
